@@ -47,7 +47,8 @@ PRODUCT_PACKAGES := \
     bluetooth-health \
     hostapd \
     wpa_supplicant.conf \
-    WallpaperCropper
+    WallpaperCropper \
+	PhoneLabHeartbeat
 
 PRODUCT_PACKAGES += \
     audio \
