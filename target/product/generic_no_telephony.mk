@@ -48,7 +48,6 @@ PRODUCT_PACKAGES := \
     hostapd \
     wpa_supplicant.conf \
     WallpaperCropper \
-	PhoneLabHeartbeat
 
 PRODUCT_PACKAGES += \
     audio \
