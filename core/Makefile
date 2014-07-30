@@ -311,7 +311,8 @@ endif
 # for future OTA packages installed by this system.  Actual product
 # deliverables will be re-signed by hand.  We expect this file to
 # exist with the suffixes ".x509.pem" and ".pk8".
-DEFAULT_KEY_CERT_PAIR := $(DEFAULT_SYSTEM_DEV_CERTIFICATE)
+### Use phonelab keys
+DEFAULT_KEY_CERT_PAIR := $(PRODUCT_EXTRA_RECOVERY_KEYS)
 
 
 # Rules that need to be present for the all targets, even
